@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="perudo.css">
+    <title>Perudo Rules</title>
+</head>
+
+<body>
+    <div class="main">
+        <h1>How to play Perudo</h1>
+        
+        
+        <h2>Introduction</h2>
+        <p>Perudo, also known as Liar's Dice, Dudo, and a few other names I don't know yet, is a dice game mixing together maths and bluffing. The aim of the game is to be the last player with any dice.</p>
+        
+        <div class="rules">   
+            <h2>Rules</h2>
+            
+            
+            <p>Each person starts with 5 dice and an opaque cup. This is to help hide the dice, so technically is not necessary, but is highly recommended. </p>
+            
+            <p>Roll your dice at the beginning of each new round, and then look at them without showing any of the other players.</p>
+
+            
+            <h3>Making a bid</h3>
+            
+            
+            <p>Now, the first player, with their dice and knowledge of probability, must make a bid on how many of a certain type of dice there are. To clarify, they are bidding on, say, how many sixes there are, or how many threes, and may only make one bid at a time. They are bidding for how many dice there are <span class="important">minimum</span>, not total. The easiest way to make a bid is to say it as "five sixes" ("at least 5 sixes") or "three twos" ("at least 3 twos").</p>
+            
+            <p>When making these bids, bear in mind that ones (aces) are wild, and are equal to whatever value is currently being bid. For example:</p>
+            
+            <img src="bidding-example.png" alt="image: 'three twos' could be (2) (2) (2) or (2) (1) (1), where () are dice">
+            
+            <p>Bidding goes clockwise.</p>
+
+            
+            <h3>"Dudo"</h3>
+            
+
+            <p>Once someone (you, in this case) have made a bid, the bid moves onto the next person. How this will be done will be explained shortly, but there is a catch.</p>
+            
+            <p>If the next person meant to take the bid (some people may play it that anyone can doubt, <span class="aside">cough cough</span> us) thinks that your bid is unrealistic or feels unable to raise the bid any more, they can call "dudo", spanish for "I doubt".</p>
+            
+            <p>In this case, all players would then reveal their dice and count them to see if the bid is accurate or not. If the person making the bid is correct, the doubter loses one die. If the doubter is correct, the person who made the bid loses a die instead.</p>
+            
+            <p>The person who lost a die in the previous round starts the next.</p>
+
+            
+            <h3>Raising the bid</h3>
+            
+            <p>The bid must only go up. That is the rule.</p>
+            
+            <p>Now, imagine the bid of "three twos", or "I believe there are at least three dice showing two on the table". Raising this bid is a matter of raising either the <span class="important">value</span> of the dice or the <span class="important">quantity</span> of the dice so that the resulting value is larger than the last.</p>
+
+            <p>Picture the "three twos" as the number 32. Raising this bid to "three threes" is legal, as the number is now 33, which is larger than 32. Equally, raising the bid to "four twos" is also legal, as 42 is bigger than 32.</p>
+            
+            <p>However, lowering this bid to "two threes" or "two twos" would be illegal, as 23 and 22 are both smaller than 32.</p>
+            
+            <img src="raising-a-bid-explanation.png" alt="another explanatory image, this time for the concept of bidding">
+            
+            <p>Another example is the bid "six fives", or "65". This could be raised to "six sixes" (66) or "seven twos", "seven threes", "seven fours", et cetera, as 72, 73, and 74 are all larger than 65. However, this bid could not be lowered to "six fours" or "five sixes" as 64 and 56 are both smaller than 65.</p>
+        
+            <p>This is the second most complex rule in perudo, but once it clicks, it will. Give it time and a few rounds if it's still not sticking.</p>
+
+
+            <h3>Aces</h3>
+
+            <p class="aside">This is a complex rule. Feel free to omit it while the players are still learning the bidding mechanic.</p>
+
+            <p>Calling "aces" halves the quantity of the bid (rounded up) and sets the value of the dice being bid to one. Therefore, "eight threes" would become "four ones", and "five fives" would become "three ones".</p>
+            
+            <p>Once aces have been called, each next player has three choices:</p>
+            <ul>
+                <li>Continue bidding, only increasing the quantity of dice and keeping their value at one</li>
+                <li>Revert back to bidding normally by doubling the quantity and choosing any value (the reverse of calling aces)</li>
+                <li>Call "dudo"</li>
+            </ul>
+
+
+            <h3>"Palafico"</h3>
+            
+            <p class="aside">Note that this does not apply when there are only two people left.</p>
+            
+            <p>When a player reaches their last die for the first time, the bidding rules change temporarily. The bidding system changes so that only the quantity of the dice can be changed and not the value.</p>
+            
+            <p>For example, an opening call of "two threes" can only be followed by "three threes", "four threes", "five threes", etc.</p>
+            
+            <p>In a palafico round, ones are not wild. A call of "aces" can only be made by the starting player as the first bid, to keep the sentiment of the values having to remain the same throughout the round.</p>
+            
+            <p>A player can only be palafico once in the game.</p> 
+
+            <h3>The end of the game</h3>
+            <p>As previously stated, being doubted correctly or doubting incorrectly leads to the loss of dice. This starts a new round, leading to everyone reshuffling their dice and the bids starting again at zero. </p> 
+            <p>When a player loses all of their dice, they are out of the game, and when there is only one player standing, they are the winner. You can call them "El Campeón" or "La Campeona" if you want extra spanish points, or just give them a spiteful look. They probably deserve it with their skillful bids and annoyingly smug grin.</p>
+        </div>
+        <p class="aside">Creator's note: sorry about none of the images being perfectly centered. I made them all in a paint rip-off instead of something microsoft powerpoint or something reasonable.</p>
+    </div>
+</body>
